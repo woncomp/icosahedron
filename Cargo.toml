@@ -1,0 +1,19 @@
+[package]
+name = "icosahedron"
+version = "0.1.0"
+authors = ["Joshua Zhang"]
+license = "MIT"
+edition = "2021"
+
+[dependencies]
+crossterm = "0.28.1"
+ratatui = "0.29.0"
+color-eyre = "0.6.3"
+directories = "6.0.0"
+lazy_static = "1.5.0"
+mlua = { version = "0.10.3", features = ["lua54", "serialize"] }
+tracing = "0.1.41"
+tracing-error = "0.2.1"
+tracing-subscriber = { version = "0.3.19", features = ["env-filter"] }
+serde = { version = "1.0.217", features = ["derive"] }
+chrono = "0.4.39"
